@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./images/logo.png"/>
+        <title>NYT news search</title>
+
+        <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700' >
+        <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat:400,700' >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
+
+
+    </head>
+
+    <body>
+
+        <div class = 'container' id="root">
+            <!-- Nav bar-->
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                <a class="navbar-brand" href="#">Clicky Game</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+                    <div class="text-white offset-4">This is the place for message</div>
+                    <div class="text-white">Score: 0  | Top Score: 0</div>
+                </div>
+            </nav>
+
+            <!-- Title-->
+            <div class="border">
+                <div class="text-center h1 p-4 ">Dog Clicky Game!</div>
+                <p class="text-center">Click on an image to earn points, but don't click on any more than once!</p>
+            </div>
+
+            <!-- Dog cards-->
+           
+            <div class="row justify-content-around mt-3">
+            <figure>
+                <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                    <img class="img-thumbnail"
+                         style="width: 200px;"
+                         src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                         alt={this.props.breed}> 
+                </a>  
+            </figure>
+
+            <figure>
+                <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                    <img class="img-thumbnail"
+                         style="width: 200px;"
+                         src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                         alt={this.props.breed}> 
+                </a>  
+            </figure>
+            <figure>
+                    <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                        <img class="img-thumbnail"
+                             style="width: 200px;"
+                             src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                             alt={this.props.breed}> 
+                    </a>  
+                </figure>
+    
+                <figure>
+                    <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                        <img class="img-thumbnail"
+                             style="width: 200px;"
+                             src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                             alt={this.props.breed}> 
+                    </a>  
+                </figure>
+
+                <figure>
+                    <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                        <img class="img-thumbnail"
+                             style="width: 200px;"
+                             src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                             alt={this.props.breed}> 
+                    </a>  
+                </figure>
+        
+                <figure>
+                    <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                        <img class="img-thumbnail"
+                             style="width: 200px;"
+                             src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                             alt={this.props.breed}> 
+                    </a>  
+                </figure>
+
+                <figure>
+                        <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                            <img class="img-thumbnail"
+                                 style="width: 200px;"
+                                 src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                                 alt={this.props.breed}> 
+                        </a>  
+                    </figure>
+        
+                    <figure>
+                        <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                            <img class="img-thumbnail"
+                                 style="width: 200px;"
+                                 src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                                 alt={this.props.breed}> 
+                        </a>  
+                    </figure>
+                    <figure>
+                            <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                                <img class="img-thumbnail"
+                                     style="width: 200px;"
+                                     src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                                     alt={this.props.breed}> 
+                            </a>  
+                        </figure>
+            
+                        <figure>
+                            <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                                <img class="img-thumbnail"
+                                     style="width: 200px;"
+                                     src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                                     alt={this.props.breed}> 
+                            </a>  
+                        </figure>
+        
+                        <figure>
+                            <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                                <img class="img-thumbnail"
+                                     style="width: 200px;"
+                                     src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                                     alt={this.props.breed}> 
+                            </a>  
+                        </figure>
+                
+                        <figure>
+                            <a onClick="{() => this.props.selectDog(this.props.breed)}">
+                                <img class="img-thumbnail"
+                                     style="width: 200px;"
+                                     src="https://dog.ceo/api/img/bulldog-boston/n02096585_1737.jpg"
+                                     alt={this.props.breed}> 
+                            </a>  
+                        </figure>
+
+            </div>
+
+            
+        </div>
+    </body>
+
+</html>

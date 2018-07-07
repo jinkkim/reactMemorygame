@@ -1,0 +1,62 @@
+[
+    {
+        "breed": "bulldog",
+        "image": "https://previews.123rf.com/images/cole123rf/cole123rf1306/cole123rf130600039/20310173-mad-dog-english-bulldog-laying-down-with-sour-expression-isolated-on-white-background.jpg"
+    },
+    {
+        "breed": "beagle",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13001000/Beagle-On-White-01.jpg"
+    },
+    {
+        "breed": "husky",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKdr-PBRW47UcAVbbtjrXt73mNSss-5KKw7_vEay3olXfnMfdn7A"
+    },
+    {
+        "breed": "maltese",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdj4PaMAMwjqmNSJS_VrROXPgqfHNZcZukyhfmzFjPOsMP9Lt3Q"
+    },
+    {
+        "breed": "pomeranian",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225627/Pomeranian-On-White-01.jpg"
+    },
+    {
+        "breed": "poodle",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225538/Poodle-On-White-03.jpg"
+    },
+    {
+        "breed": "pyrenees",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12212157/Great-Pyrenees-on-White-01.jpg"
+    },
+    {
+        "breed": "chihuahua",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12234710/Chihuahua-On-White-03.jpg"
+    },
+    {
+        "breed": "boxer",
+        "image": "http://cdn2-www.dogtime.com/assets/uploads/2011/01/file_22916_boxer.jpg"
+    },
+    {
+        "breed": "chow",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12234523/Chow-Chow-On-White-01.jpg"
+    },
+    {
+        "breed": "corgi",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225906/Pembroke-Welsh-Corgi-On-White-05.jpg"
+    },
+    {
+        "breed": "mastiff",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12230849/Mastiff-On-White-03.jpg"
+    },
+    {
+        "breed": "sheepdog",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12230147/Old-English-Sheepdog-On-White-03.jpg"
+    },
+    {
+        "breed": "terrier",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12213034/Irish-Terrier-on-white-01.jpg"
+    },
+    {
+        "breed": "shihtzu",
+        "image": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12224329/Shih-Tzu-On-White-01.jpg"
+    }
+]
